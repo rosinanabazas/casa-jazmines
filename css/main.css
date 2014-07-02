@@ -92,6 +92,9 @@ header ul {
 }
 .deco {
   background: white top url(../img/deco.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 10em; 
 }
 
 /* main content */
@@ -124,7 +127,7 @@ footer {
   height: 300px;
 }
 .last-paragraph {
-  padding-bottom: 3em;
+  padding-bottom: 6%;
 }
 
 /* footer */
