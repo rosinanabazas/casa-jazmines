@@ -131,3 +131,37 @@ footer {
 }
 
 /* footer */
+
+.networks li {
+  background: url("../img/sprite.png");
+  margin: 0.7em 44%;
+  width: 51px;
+  height: 51px;
+  opacity: 0.8;
+  padding-top: 1em;
+}
+.networks li:hover  {
+  opacity: 1;
+}
+.networks li a {
+  display: block;
+  height: 51px;
+  width: 51px;
+}
+.networks span {
+  margin-left: 4em; 
+}
+li.mail {
+  background-position: 0 0; 
+}
+li.facebook {
+  background-position: 0 -101px; 
+}
+li.instagram { 
+  background-position: 0 -202px; 
+}  
+li.twitter { 
+  background-position: 0 -303px; 
+}
+li.youtube { 
+  background-position: 0 -400px; 
