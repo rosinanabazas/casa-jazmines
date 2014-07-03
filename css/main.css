@@ -154,7 +154,7 @@ footer span {
   width: 51px;
   height: 51px;
   opacity: 0.8;
-  padding-top: 0.8em;
+  margin-top: 0.5em;
 }
 .networks li:hover  {
   opacity: 1;
