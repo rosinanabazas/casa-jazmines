@@ -123,6 +123,18 @@ footer {
 .last-paragraph {
   padding-bottom: 7%;
 }
+.deco1 {
+  background: url("../img/deco1.png") no-repeat;
+  width: 5%;
+  height: 4em;
+  margin: 0 auto 5em auto; 
+}
+.deco2 {
+  background: url("../img/deco2.png") no-repeat;
+  width: 9.2%;
+  height: 2.5em;
+  margin: 0 auto 5em auto; 
+}
 
 /* footer */
 
@@ -166,3 +178,17 @@ li.youtube {
 .last-icon {
   padding-bottom: 0;
 }
+
+/* media queries */
+
+/*Media QUeries*/
+
+@media screen and (max-width: 612px) {
+ 
+  .logo img {
+    margin: 0 auto;
+  }
+  #intro h2 {
+    margin-top: 15%;  
+  }
+
