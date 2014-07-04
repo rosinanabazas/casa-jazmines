@@ -1,8 +1,7 @@
 var geocoder;
 var map;
-var venue_lat = -34.367068;
-var venue_long = -57.789159;
-
+var venue_lat = -34.39248;
+var venue_long = -57.881341;
 
 function initialize() {
   // Check if coordinates are available
