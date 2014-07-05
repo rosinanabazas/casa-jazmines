@@ -181,14 +181,23 @@ li.youtube {
 
 /* media queries */
 
-/*Media QUeries*/
-
 @media screen and (max-width: 612px) {
- 
-  .logo img {
-    margin: 0 auto;
-  }
-  #intro h2 {
-    margin-top: 15%;  
-  }
 
+  header h1 {
+    text-align: center;
+    
+  }
+  .main-nav, 
+  .lang-nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+    header li a {
+    padding: 0.5em;
+  }
+  .deco1,
+  .deco2 {
+    display: none;
+  }
+}
