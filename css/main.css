@@ -185,19 +185,25 @@ li.youtube {
 
   header h1 {
     text-align: center;
-    
+    float: none;
   }
   .main-nav, 
   .lang-nav {
     float: none;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
   }
     header li a {
     padding: 0.5em;
+    float: none;
+    margin: 0 auto;
   }
   .deco1,
   .deco2 {
     display: none;
+  }
+  #intro h2 {
+    padding-top: 1.5em;
   }
 }
